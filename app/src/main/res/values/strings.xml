@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyYoHo</string>
+    <string-array name="arrt">
+        <item>男生 BOYS</item>
+        <item>女生 GLRLS</item>
+        <item>超童KIDS</item>
+        <item>创意生活 LIFE STYLE</item>
+        <item>奥莱 OUTLETS</item>
+        <item>男生 PLUS</item>
+        <item>男生 STAR</item>
+        <item>男生 CLOBALSHOP</item>
+        <item>逛 TreadFinder</item>
+    </string-array>
+    <item name="head" type="id"></item>
+    <item name="bottom" type="id"></item>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_banner"
+    tools:context="com.example.administrator.myyoho.ChooseActivity">
+<RadioGroup
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:onClick="start"
+        android:button="@null"
+        android:background="@drawable/selecter_choose_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:onClick="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selecter_choose_grils"
+        android:button="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:onClick="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selecter_choose_kids"
+        android:button="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioButton
+        android:onClick="start"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selecter_choose_lifestyle"
+        android:button="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RadioGroup>
+</RelativeLayout>

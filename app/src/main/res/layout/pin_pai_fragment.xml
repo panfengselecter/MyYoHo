@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+<ExpandableListView
+    android:background="#ccc"
+    android:id="@+id/pin_pai_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</ExpandableListView>
+    <ListView
+        android:background="#fff"
+        android:layout_alignParentRight="true"
+        android:id="@+id/rigth_lv"
+        android:layout_width="20dp"
+        android:layout_height="match_parent">
+    </ListView>
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/pin_pai_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+           android:gravity="center"
+           android:visibility="invisible"
+           android:id="@+id/pin_pai_tv"
+           android:text="点击加载..."
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <ProgressBar
+            android:layout_toRightOf="@id/pin_pai_tv"
+            android:visibility="visible"
+            android:id="@+id/pin_pai_pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+   </RelativeLayout>
+</RelativeLayout>

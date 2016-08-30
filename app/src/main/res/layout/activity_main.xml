@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.myyoho.view.MySlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sldingmeun"
+    tools:context="com.example.administrator.myyoho.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/navigationlv"
+        android:entries="@array/arrt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>
+    <RelativeLayout
+        android:background="#ff0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <RadioButton
+                android:id="@+id/shouye"
+                android:drawableTop="@drawable/selecter_main_shouye"
+                android:text="首页"
+                style="@style/radiobutton"
+                />
+            <RadioButton
+                android:id="@+id/fenlei"
+                android:drawableTop="@drawable/selecter_main_fenglei"
+                style="@style/radiobutton"
+                android:text="分类"
+                />
+            <RadioButton
+                android:id="@+id/guang"
+                android:drawableTop="@drawable/selecter_main_guang"
+                style="@style/radiobutton"
+                android:text="逛"
+                 />
+            <RadioButton
+                android:id="@+id/gouwuche"
+                android:drawableTop="@drawable/selecter_main_gouwuche"
+                style="@style/radiobutton"
+                android:text="购物车"
+                 />
+            <RadioButton
+                android:id="@+id/wode"
+                android:drawableTop="@drawable/selecter_main_wode"
+                style="@style/radiobutton"
+                android:text="我的"
+                 />
+        </RadioGroup>
+    <FrameLayout
+    android:id="@+id/fragmentgroup"
+    android:layout_above="@id/group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></FrameLayout>
+
+    </RelativeLayout>
+</com.example.administrator.myyoho.view.MySlidingMenu>

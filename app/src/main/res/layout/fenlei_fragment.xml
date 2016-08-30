@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/toobar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <include layout="@layout/meun"
+        android:id="@+id/menu"></include>
+        <android.support.design.widget.TabLayout
+            android:layout_toRightOf="@id/menu"
+            android:background="#333"
+            android:id="@+id/tablayout"
+          android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.design.widget.TabLayout>
+    </RelativeLayout>
+    <com.example.administrator.myyoho.view.MyViewPager
+        android:id="@+id/pager"
+        android:layout_below="@id/toobar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.example.administrator.myyoho.view.MyViewPager>
+</RelativeLayout>

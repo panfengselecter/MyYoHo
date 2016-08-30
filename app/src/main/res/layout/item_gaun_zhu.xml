@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc">
+<RelativeLayout
+    android:padding="5dp"
+   android:id="@+id/rea"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <ImageView
+
+        android:background="@drawable/guan_zhu_head_shape"
+        android:id="@+id/head_img1"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/head_tv"
+        android:gravity="center"
+        android:layout_toRightOf="@id/head_img1"
+        android:text="nack"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/head_img2"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/xinxin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+</RelativeLayout>
+    <LinearLayout android:orientation="horizontal"
+    android:layout_below="@id/rea"
+        android:padding="5dp"
+
+        android:id="@+id/liner"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+  <ImageView
+      android:background="@drawable/guan_zhu_img_shape"
+      android:id="@+id/img1"
+      android:src="@mipmap/ic_launcher"
+      android:layout_weight="1"
+      android:layout_width="0dp"
+      android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/guan_zhu_img_shape"
+            android:id="@+id/img2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/guan_zhu_img_shape"
+            android:id="@+id/img3"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+</LinearLayout>
+    <LinearLayout
+        android:background="@drawable/guan_zhu_img_shape"
+        android:id="@+id/liner23"
+        android:layout_below="@id/liner"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv11"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv12"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv13"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/guan_zhu_img_shape"
+        android:layout_marginTop="3dp"
+        android:layout_below="@id/liner23"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv1"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv2"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tv3"
+            android:gravity="center_horizontal"
+            android:text="114"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

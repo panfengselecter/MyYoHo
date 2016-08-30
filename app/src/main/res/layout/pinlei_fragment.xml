@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RadioGroup
+    android:id="@+id/rg"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <RadioButton
+        android:text="Boy"
+        android:id="@+id/pinlei_boys"
+        style="@style/pinlei_fragment_style" />
+    <RadioButton style="@style/pinlei_fragment_lines" />
+    <RadioButton
+        style="@style/pinlei_fragment_style"
+        android:text="Gril"
+        android:id="@+id/pinlei_girls"
+         />
+    <RadioButton style="@style/pinlei_fragment_lines" />
+    <RadioButton
+        style="@style/pinlei_fragment_style"
+        android:text="Kid"
+        android:id="@+id/pinlei_kids"
+        />
+    <RadioButton style="@style/pinlei_fragment_lines" />
+    <RadioButton
+        style="@style/pinlei_fragment_style"
+        android:text="Lifestyle"
+        android:id="@+id/pinlei_lisfestyle"
+         />
+</RadioGroup>
+        <com.example.administrator.myyoho.view.MyViewPager
+        android:layout_below="@id/rg"
+        android:id="@+id/pinlei_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.administrator.myyoho.view.MyViewPager>
+</RelativeLayout>

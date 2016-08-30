@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/hot_img"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="100dp"
+    android:layout_height="50dp" />
+    <TextView
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@id/hot_img"
+        android:id="@+id/hot_tv"
+        android:text="fasdfdsa"
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+</RelativeLayout>
